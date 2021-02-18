@@ -3,7 +3,7 @@ import kotlin.math.abs
 class Rhombus: FigureWithVertices {
     constructor(coord_in: Array<point>): super(coord_in) {
         if (coord_in.size == 4) vertices = coord_in
-        else println("Не-а, это ж ромб")
+        else println("Нам хватит трёх вершин, но стоит ввести все 4)")
     }
 
     fun area(): Double {
